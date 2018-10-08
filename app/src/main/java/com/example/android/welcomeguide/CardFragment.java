@@ -102,9 +102,6 @@ public class CardFragment extends Fragment {
 
             }
         });
-
-        // Function defined for information
-
         information.setText(String.format("%s", info[getArguments().getInt("position")]));
         return view;
     }

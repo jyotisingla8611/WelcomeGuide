@@ -45,24 +45,5 @@ public class babbageActivity extends AppCompatActivity {
                 startActivity(phoneActivity);
             }
         });
-    }/*
-    void gotoPhone1(View v){
-        Intent phoneActivity = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+"9501105645"));
-        startActivity(phoneActivity);
-
     }
-    void gotoPhone2(View v){
-        Intent phoneActivity = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+"9501105646"));
-        startActivity(phoneActivity);
-
-    }
-    void gotoPhone3(View v){
-        Intent phoneActivity = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+"9501105651"));
-        startActivity(phoneActivity);
-
-    } void gotoPhone4(View v){
-        Intent phoneActivity = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+"9501105640"));
-        startActivity(phoneActivity);
-
-    }*/
 }
